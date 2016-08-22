@@ -3,7 +3,7 @@
 // @namespace   apachan.net/
 // @description Changes flash embedded youtube videos to html5
 // @include     http://apachan.net/*
-// @version     1.0.1
+// @version     1.1.0
 // @grant       none
 // ==/UserScript==
 for (let embed of document.querySelectorAll('object > embed[src*="youtube.com"]')) {
