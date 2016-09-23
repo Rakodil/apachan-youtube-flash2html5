@@ -6,6 +6,15 @@
 // @version     1.1.0
 // @grant       none
 // ==/UserScript==
-for (let embed of document.querySelectorAll('object > embed[src*="youtube.com"]')) {
-    embed.parentNode.outerHTML = '<iframe width="' + embed.width + '" height="' + embed.height + '" src="' + embed.src.replace(/^.+\/(.+)$/, 'https://www.youtube.com/embed/$1') + '" frameborder="0" allowfullscreen></iframe>';
-}
+(() => {
+    'use strict';
+
+    for (let embed of document.querySelectorAll('object > embed[src*="youtube.com"]')) {
+        embed.parentNode.outerHTML =
+            `<iframe width="${embed.width}"
+                     height="${embed.height}"
+                     src="${embed.src.replace(/^.+\/(.+)$/, 'https://www.youtube.com/embed/$1')}"
+                     frameborder="0"
+                     allowfullscreen></iframe>`;
+    }
+})();
