@@ -4,7 +4,7 @@
 // @namespace   apachan.net/
 // @description Changes flash embedded youtube videos to html5
 // @include     http://apachan.net/*
-// @version     1.1.0
+// @version     1.1.1
 // @grant       none
 // ==/UserScript==
 (() => {
