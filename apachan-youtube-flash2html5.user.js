@@ -6,6 +6,7 @@
 // @include     http://apachan.net/*
 // @version     1.1.1
 // @grant       none
+// @updateURL   https://openuserjs.org/meta/Rakodil/Apachan_YouTube_Flash2HTML5.meta.js
 // ==/UserScript==
 (() => {
     'use strict';
