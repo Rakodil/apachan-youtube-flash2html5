@@ -1,5 +1,6 @@
 // ==UserScript==
 // @name        Apachan YouTube Flash2HTML5
+// @license     MIT License
 // @namespace   apachan.net/
 // @description Changes flash embedded youtube videos to html5
 // @include     http://apachan.net/*
